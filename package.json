@@ -1,6 +1,6 @@
 {
   "name": "tq-layout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "一套栅格化，响应式布局，没有多余的padding,margin干扰，满足 2\\*3\\*4\\*5 布局需求。",
   "main": "main.css",
   "directories": {
