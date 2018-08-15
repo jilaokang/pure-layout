@@ -449,31 +449,66 @@ body {
     margin-left: 0;
   }
 }
-.tq_center_center {
+.left_top {
   width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
-.tq_right_center {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: right;
-}
-
-.tq_left_center {
+.left_middle {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-.tq_right_center {
+.left_bottom {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.center_top {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.center_middle {
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.center_bottom {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.right_top {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.right_middle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.right_bottom {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
   justify-content: flex-end;
 }
 

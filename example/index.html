@@ -21,12 +21,28 @@
         h1 {
             text-indent: 1rem;
         }
+
+        #api {
+            padding: 0 1rem
+        }
+
+        #api .item-2 {
+            border: 1px solid #aaa;
+        }
+
+        #api .item-2>div {
+            height: 15vh;
+        }
+
+        #api .item-2>div>div {
+            padding: 3px
+        }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <h1>BASE LAYOUT</h1>
+        <h1>LAYOUT BASE</h1>
         <p>10 col</p>
         <div class="row">
             <div class="col-2 col-xs-10" style="background:#005792">
@@ -67,24 +83,58 @@
         </div>
     </div>
     <br>
-    <div class="container">
-        <h1>API</h1>
+    <h1>LAYOUT API</h1>
+    <div class="container" id="api">
         <!-- 所有列
          justify-content: center -->
         <div class="row">
-            <div class="item-3">
-                <div class="tq_left_center" style="background:#dd0a35;height: 20vh;color:#fff">
-                    <div>tq_left_center</div>
+            <div class="item-2">
+                <div class="left_top">
+                    <div>left_top</div>
                 </div>
             </div>
-            <div class="item-3">
-                <div class="tq_center_center" style="background:rgba(22,135,167,1);height: 20vh;color:#fff">
-                    <div>tq_center_center</div>
+            <div class="item-2">
+                <div class="center_top">
+                    <div>center_top</div>
                 </div>
             </div>
-            <div class="item-3">
-                <div class="tq_right_center" style="background:#014955;height: 20vh;color:#fff">
-                    <div>tq_right_center</div>
+            <div class="item-2">
+                <div class="right_top">
+                    <div>right_top</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="item-2">
+                <div class="left_middle">
+                    <div>left_middle</div>
+                </div>
+            </div>
+            <div class="item-2">
+                <div class="center_middle">
+                    <div>center_middle</div>
+                </div>
+            </div>
+            <div class="item-2">
+                <div class="right_middle">
+                    <div>right_middle</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="item-2">
+                <div class="left_bottom">
+                    <div>left_bottom</div>
+                </div>
+            </div>
+            <div class="item-2">
+                <div class="center_bottom">
+                    <div>center_bottom</div>
+                </div>
+            </div>
+            <div class="item-2">
+                <div class="right_bottom">
+                    <div>right_bottom</div>
                 </div>
             </div>
         </div>

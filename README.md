@@ -1,5 +1,7 @@
 ## Layout
 
+一个企图实现布局自动化的CSS库。
+
 [效果预览](https://jilaokang.club/layout/example/)
 
 <br/>
@@ -95,17 +97,14 @@ import 'tq-layuot/main.css'
 
 ### API大礼包
 
-如果有适用于布局相关的场景，欢迎[issues](https://github.com/layout/issues)。
-
-
-APi速记：公司名_水平方向_垂直方向 .tq_center_center
+APi速记：水平方向_垂直方向 .center_middle
 
 
 |    | 从顶开始 | 水平垂直     | 从底开始 |
 | -- | :----------:| ---------------- | :--------: |
-| 左 |      x      | tq_left_center   |   x       |
-| 中 |     x       | tq_center_center |     x     |
-| 右 |      x      | tq_right_center  |    x      |
+| 左 |      x      | left_middle   |   x       |
+| 中 |     x       | center_middle |     x     |
+| 右 |      x      | right_middle |    x      |
 
 #### 示例
 
@@ -114,7 +113,7 @@ APi速记：公司名_水平方向_垂直方向 .tq_center_center
 ````html
 <div class="row">
     <div class="col-3">
-        <div class="tq_center_center" style="height:10vh">
+        <div class="center_center" style="height:10vh">
             我们都垂直居中在一个版块里
             <p>垂直水平居中的文字</p>
             <img alt="垂直水平居中的图片"/>>
@@ -124,5 +123,7 @@ APi速记：公司名_水平方向_垂直方向 .tq_center_center
 ````
 
 <br/>
+
+如果有适用于布局相关的场景，欢迎[issues](https://github.com/jilaokang/layout/issues)。
 
 Licenses under the [MIT](https://opensource.org/licenses/MIT) license.
