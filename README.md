@@ -6,12 +6,20 @@
 
 <br/>
 
+### 介绍
+通过将整个页面划分成不同的行与列，共同构建起了栅格化系统，方便开发者进行排版布局，解决前端布局难题。
+
+该库支持行内嵌套，实现了2*3*4*5所有可能性的布局需求。
+
+为使显示效果更加，该库支持响应式式布局，通过`col` `col-xs`的形式区分是PC端还是移动端，从而显示出不同的效果。
+
+
 ### 导入 
 
-方式一： 下载文件，导入main.css
+方式一： 在线链接
 
 ```html
-<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="http://pd37peogt.bkt.clouddn.com/main.css">
 ```
 方式二：npm
 
@@ -19,7 +27,7 @@
 npm i tq-layout --save
 ````
 ````js
-import 'tq-layuot'
+import 'tq-layuot/main.css'
 ````
 
 <br/>
@@ -32,30 +40,52 @@ import 'tq-layuot'
 
 <br/>
 
-### 10 格
+### 使用
 
-```html
+逻辑：将页面划分成多行，再将一行划分成多列，从而实现栅格化布局。
+
+1. 划分成一行
+
+````html
 <div class="row">
-    <div class="col-5 col-xs-10">
-        默认5格 小屏10格
-    </div>
-    <div class="col-3 col-xs-10">
-        默认3格 小屏10
+    ...
+</div>
+````
+
+2. 划分成多列
+
+````html
+<div class="row">
+    <div class="col-1">这个版块给1列</div>
+    <div class="col-5">这个版块占5列</div>
+</div>
+````
+
+3. 响应式布局
+
+````html
+<div class="row">
+    <div class="col-1 col-xs-10">在电脑上占1列，手机上占10列</div>
+    <div class="col-5 col-xs-5">在电脑上占5列，手机上占5列</div>
+</div>
+````
+
+4. offset
+
+````html
+<div class="row">
+    <div class="col-5 col-offset-4">
+        左边空出4列，版块占5列
     </div>
 </div>
-```
+````
 
-### 12 格
+5. col & item
 
-```html
-<div class="row">
-    <div class="item-6 item-xs-12">
-        默认6格 小屏12格
-    </div>
-    <div class="item-4 item-offset-2 item-xs-12">
-        默认6格 小屏12格 右偏移2格
-    </div>
-</div>
-```
+- col将一行划分成10格
+
+- item将一行划分成12格
+
+两者功能写法完全相同
 
 Licenses under the [MIT](https://opensource.org/licenses/MIT) license.
