@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@for $i from 1 through 10 {
+    .col-#{$i} {
+        width: $i *10%;
+    }
+}
+
+@for $i from 1 through 12 {
+    .item-#{$i} {
+        width: $i *8.3333%;
+    }
+}
+
+@media (max-width: 800px) {
+    @for $i from 1 through 10 {
+        .col-xs-#{$i} {
+            width: $i*10%
+        }
+    }
+    @for $i from 1 through 12 {
+        .item-xs-#{$i} {
+            width: $i*8.3333%;
+        }
+    }
+}
