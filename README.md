@@ -1,5 +1,7 @@
 ## Layout
 
+[预览链接](http://jilaokang.club/layout/example/)
+
 一套栅格化，响应式布局，在 bootstrao 的基础上 12 格上增设 10 格，满足 2\*3\*4\*5 布局需求。
 
 ### 导入 css
