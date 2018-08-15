@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 .row {
@@ -10,25 +10,43 @@ body {
 
 @for $i from 1 through 10 {
     .col-#{$i} {
-        width: $i *10%;
+        width: $i * 10%;
+    }
+    .col-offset-#{$i} {
+        margin-left: $i * 10%;
     }
 }
 
 @for $i from 1 through 12 {
     .item-#{$i} {
-        width: $i *8.3333%;
+        width: $i * 8.3333%;
+    }
+    .item-offset-#{$i} {
+        margin-left: $i * 8.333%;
     }
 }
 
 @media (max-width: 800px) {
     @for $i from 1 through 10 {
         .col-xs-#{$i} {
-            width: $i*10%
+            width: $i * 10%;
+        }
+        .col-offset-xs-#{$i} {
+            margin-left: $i * 10%;
+        }
+        .col-offset-#{$i} {
+            margin-left: 0;
         }
     }
     @for $i from 1 through 12 {
         .item-xs-#{$i} {
-            width: $i*8.3333%;
+            width: $i * 8.3333%;
+        }
+        .item-offset-xs-#{$i} {
+            margin-left: $i * 8.333%;
+        }
+        .item-offset-#{$i} {
+            margin-left: 0;
         }
     }
 }

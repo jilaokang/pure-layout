@@ -1,0 +1,26 @@
+{
+  "name": "tq-layout",
+  "version": "1.0.0",
+  "description": "一套栅格化，响应式布局，没有多余的padding,margin干扰，满足 2\\*3\\*4\\*5 布局需求。",
+  "main": "main.css",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jilaokang/layout.git"
+  },
+  "keywords": [
+    "layout",
+    "bootstrap"
+  ],
+  "author": "kaso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jilaokang/layout/issues"
+  },
+  "homepage": "https://github.com/jilaokang/layout#readme"
+}

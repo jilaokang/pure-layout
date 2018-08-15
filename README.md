@@ -2,13 +2,22 @@
 
 [预览链接](http://jilaokang.club/layout/example/)
 
-一套栅格化，响应式布局，在 bootstrao 的基础上 12 格上增设 10 格，满足 2\*3\*4\*5 布局需求。
+一套栅格化，响应式布局，没有多余的padding,margin干扰，满足 2\*3\*4\*5 布局需求。
 
 ### 导入 css
 
 ```html
 <link rel="stylesheet" href="main.css">
 ```
+
+### 功能
+|      | 栅格化   | 响应式      | 列偏移                           | 父包裹 |
+| ---- | -------- | ----------- | -------------------------------- | ------ |
+| 10格 | .col-12  | .col-xs-12  | .col-offset-2 .col-offset-xs-12  | .row   |
+| 12格 | .item-12 | .item-xs-12 | .item-ofsset-2 .col-offset-xs-12 | .row   |
+
+
+
 
 ### 10 格
 
@@ -30,8 +39,8 @@
     <div class="item-6 item-xs-12">
         默认6格 小屏12格
     </div>
-    <div class="item-6 item-xs-12">
-        默认6格 小屏12格
+    <div class="item-4 item-offset-2 item-xs-12">
+        默认6格 小屏12格 右偏移2格
     </div>
 </div>
 ```
