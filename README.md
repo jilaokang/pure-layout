@@ -1,6 +1,6 @@
 ## Layout
 
-[预览链接](http://jilaokang.club/layout/example/)
+[预览链接](https://jilaokang.club/layout/example/)
 
 一套栅格化，响应式布局，没有多余的padding,margin干扰，满足 2\*3\*4\*5 布局需求。
 
