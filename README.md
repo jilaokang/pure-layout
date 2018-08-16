@@ -104,16 +104,16 @@ APi速记：水平方向_垂直方向 .center_middle。
 
 |    | 从顶开始 | 水平垂直     | 从底开始 |
 | -- | :----------:| ---------------- | :--------: |
-| 左 |      x      | left_middle   |   x       |
-| 中 |     x       | center_middle |     x     |
-| 右 |      x      | right_middle |    x      |
+| 左 |      left_top      | left_middle   |    left_bottom      |
+| 中 |     center_top       | center_middle |     center_bottom     |
+| 右 |      right_top      | right_middle |    right_bottom     |
 
 #### 示例
 
 ````html
 <div class="row">
     <div class="col-3">
-        <div class="center_center" style="height:10vh">
+        <div class="center_middle" style="height:10vh">
             我们都垂直居中在一个版块里
             <p>垂直水平居中的文字</p>
             <img alt="垂直水平居中的图片"/>>
