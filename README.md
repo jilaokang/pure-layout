@@ -1,7 +1,5 @@
 ## Layout
 
-一个企图实现布局自动化的CSS库。
-
 [效果预览](https://jilaokang.club/layout/example/)
 
 <br/>
