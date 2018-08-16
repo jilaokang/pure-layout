@@ -1,5 +1,7 @@
 ## Layout
 
+布局繁琐复杂，和其他的css不同，每次写的时候整个页面穿插着flex, float, grid, -margin, line-height, table等，为了实现我们的布局需求，在该方面非常混乱，页面布局非常适合用于抽象出来单独作为一个库，方便开发人员快速开发，更好的后期维护。
+
 [效果预览](https://jilaokang.club/layout/example/)
 
 <br/>
