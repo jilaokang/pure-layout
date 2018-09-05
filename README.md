@@ -18,14 +18,6 @@
 
 ### 导入
 
-方式一： 在线链接
-
-```html
-<link rel="stylesheet" href="http://pd37peogt.bkt.clouddn.com/main.css">
-```
-
-方式二：npm
-
 ```bash
 npm i tq-layout --save
 ```
