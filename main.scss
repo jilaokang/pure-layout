@@ -5,7 +5,26 @@ body {
 
 .row {
     display: flex;
-    flex-wrap: wrap;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.around {
+    justify-content: space-around;
 }
 
 @for $i from 1 through 10 {
@@ -78,21 +97,21 @@ body {
     width: 100%;
     display: flex;
     align-items: flex-start;
-    justify-content: center
+    justify-content: center;
 }
 
 .center_middle {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 
 .center_bottom {
     width: 100%;
     display: flex;
     align-items: flex-end;
-    justify-content: center
+    justify-content: center;
 }
 
 // 右侧*3
@@ -100,19 +119,19 @@ body {
     width: 100%;
     display: flex;
     align-items: flex-start;
-    justify-content: flex-end
+    justify-content: flex-end;
 }
 
 .right_middle {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-end
+    justify-content: flex-end;
 }
 
 .right_bottom {
     width: 100%;
     display: flex;
     align-items: flex-end;
-    justify-content: flex-end
+    justify-content: flex-end;
 }

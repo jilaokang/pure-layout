@@ -23,7 +23,8 @@
             text-indent: 1rem;
         }
 
-        #api {
+        #api,
+        #align {
             padding: 0 1rem
         }
 
@@ -40,53 +41,79 @@
         #api .item-2>div>div {
             padding: 3px
         }
+
+        #align .item-4 {
+            height: 8vh;
+            color: #ffffff;
+            padding: 0 3px;
+            line-height: 8vh;
+        }
+
+        br {
+            line-height: 3rem
+        }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <h1>LAYOUT BASE</h1>
+        <h1>BLOCK BASE</h1>
         <p>10 col</p>
         <div class="row">
-            <div class="col-2 col-xs-10" style="background:#005792">
-                <div class="mockdiv">
-                    col-2 col-xs-10
-                </div>
+            <div class="col-2 col-xs-10 mockdiv" style="background:#005792">
+                col-2 col-xs-10
             </div>
-            <div class="col-5 col-xs-5" style="background:#fd5f00">
-                <div class="mockdiv">
-                    col-5 col-xs-5
-                </div>
+            <div class="col-5 col-xs-5 mockdiv" style="background:#fd5f00">
+                col-5 col-xs-5
             </div>
-            <div class="col-3 col-xs-5" style="background:#13334c">
-                <div class="mockdiv">
-                    col-3 col-xs-5
-                </div>
+            <div class="col-3 col-xs-5 mockdiv" style="background:#13334c">
+                col-3 col-xs-5
             </div>
         </div>
     </div>
     <div class="container">
         <p>12 item</p>
         <div class="row">
-            <div class="item-2 item-xs-12" style="background:#a39391">
-                <div class="mockdiv">
-                    item-2 item-xs-12
-                </div>
+            <div class="item-2 item-xs-12 mockdiv" style="background:#a39391">
+                item-2 item-xs-12
             </div>
-            <div class="item-4 item-xs-6" style="background:#50C1E9">
-                <div class="mockdiv">
-                    item-4 item-xs-6
-                </div>
+            <div class="item-4 item-xs-6 mockdiv" style="background:#50C1E9">
+                item-4 item-xs-6
             </div>
-            <div class="item-4 item-xs-6 item-offset-2" style="background:#7A57D1">
-                <div class="mockdiv">
-                    item-4 item-xs-6 item-offset-2
-                </div>
+            <div class="item-4 item-xs-6 item-offset-2 mockdiv" style="background:#7A57D1">
+                item-4 item-xs-6 item-offset-2
             </div>
         </div>
     </div>
     <br>
-    <h1>LAYOUT API</h1>
+    <h1>Block LIST</h1>
+    <div class="container">
+        <p>between</p>
+        <div class="row between">
+            <div class="col-2 mockdiv" style="background:#005792">between</div>
+            <div class="col-2 mockdiv" style="background: #005792">between</div>
+            <div class="col-2 mockdiv" style="background: #005792">between</div>
+        </div>
+    </div>
+    <div class="container">
+        <p>around</p>
+        <div class="row around">
+            <div class="col-2 mockdiv" style="background:#005792">around</div>
+            <div class="col-2 mockdiv" style="background: #005792">around</div>
+            <div class="col-2 mockdiv" style="background: #005792">around</div>
+        </div>
+    </div>
+    <br>
+    <h1>LINE ALIGN</h1>
+    <div class="container" id="align">
+        <div class="row">
+            <div class="item-4 item-xs-12 left" style="background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);">left</div>
+            <div class="item-4 item-xs-12 center" style="background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);">center</div>
+            <div class="item-4 item-xs-12 right" style="background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">right</div>
+        </div>
+    </div>
+    <br>
+    <h1>LINE POSITION</h1>
     <div class="container" id="api">
         <!-- 所有列
          justify-content: center -->
@@ -142,6 +169,32 @@
             </div>
         </div>
     </div>
+    <br>
+    <!-- <h1>USEAGE</h1>
+    <div class="container">
+        <p>example 1</p>
+        <div class="row">
+            <div class="item-4 mockdiv" style="background:red">item-4 </div>
+            <div class="item-4 center mockdiv" style="background:green">item-4 center</div>
+            <div class="item-4 right mockdiv" style="background:blue">item-4 right</div>
+        </div>
+    </div>
+    <div class="container">
+        <p>example 2</p>
+        <div class="row around">
+            <div class="item-2 center mockdiv" style="background:red">item-4 </div>
+            <div class="item-2 center mockdiv" style="background:green">item-4 center</div>
+            <div class="item-2 center mockdiv" style="background:blue">item-4 right</div>
+        </div>
+    </div>
+    <div class="container">
+        <p>example 3</p>
+        <div class="row between">
+            <div class="item-2 center mockdiv" style="background:red">item-4 </div>
+            <div class="item-2 center mockdiv" style="background:green">item-4 center</div>
+            <div class="item-2 center mockdiv" style="background:blue">item-4 right</div>
+        </div>
+    </div> -->
 </body>
 
 </html>
