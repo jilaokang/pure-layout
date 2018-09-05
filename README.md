@@ -99,7 +99,7 @@ import "tq-layuot/main.css";
 
 <br/>
 
-### 行内布局：整体位置
+#### 行内布局：整体位置
 
 APi 速记：水平方向\_垂直方向 .center_middle。
 
