@@ -1,5 +1,7 @@
 ## Layout
 
+[![npm](https://badge.fury.io/js/tq-layout.svg)](https://www.npmjs.com/package/tq-layout)
+
 布局繁琐复杂，和其他的 css 不同，常规布局时候整个页面穿插着 flex, float, grid, -margin, line-height, table 等。页面布局非常适合用于抽象出来单独作为一个库，方便开发人员快速开发，更好的后期维护。
 
 [效果预览](https://jilaokang.club/layout/example/)
