@@ -56,6 +56,3 @@ APi 速记：水平方向\_垂直方向 .center_middle。
 |      |  两边  |  居中   |
 | ---- | :----: | :-----: |
 | 位置 | around | between |
-
-
-Licenses under the [MIT](https://opensource.org/licenses/MIT) license.
