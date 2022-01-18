@@ -1,4 +1,4 @@
-## Layout
+## pure-layout
 
 [![npm](https://badge.fury.io/js/tq-layout.svg)](https://www.npmjs.com/package/tq-layout)
 
