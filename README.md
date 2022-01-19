@@ -6,7 +6,7 @@
 
 
 ### 介绍
-[效果预览](https://jilaokang.github.io/layout/example/)
+[效果预览](https://jilaokang.github.io/pure-layout/example/)
 
 一个纯粹的布局框架，实现功能有：
 1. 响应式
