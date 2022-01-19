@@ -1,6 +1,9 @@
 ## pure-layout
 
 [![npm](https://badge.fury.io/js/tq-layout.svg)](https://www.npmjs.com/package/tq-layout)
+![language](https://img.shields.io/badge/language-scss-blue.svg)
+
+
 
 ### 介绍
 [效果预览](https://jilaokang.github.io/layout/example/)
